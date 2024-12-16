@@ -24,7 +24,7 @@ if(seleccion == "si"){
 }
 
 while (seleccion != "no"){
-    let producto = prompt("Cuantos productos deseas comprar?")
+    let producto = prompt("Que producto deseas comprar?")
     let precio = 0
 
     if(producto == "sandwiches de miga" || producto == "gaseosa" || producto == "helado" || producto == "chips" || producto == "pizzetas") {
